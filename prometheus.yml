@@ -5,4 +5,4 @@ scrape_configs:
   - job_name: 'prometheus'
     scrape_interval: 5s
     static_configs:
-      - targets: ['https://carshipping-v9-pr-145.herokuapp.com/metrics']
+      - targets: ['carshipping-v9-pr-145.herokuapp.com']
