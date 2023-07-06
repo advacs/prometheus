@@ -6,3 +6,6 @@ scrape_configs:
     scrape_interval: 5s
     static_configs:
       - targets: ['carshipping-v9-pr-145.herokuapp.com', 'carshipping-v9-live.herokuapp.com','carshipping-live.herokuapp.com']
+    basic_auth:
+      username: 'root'
+      password: '{password}'
